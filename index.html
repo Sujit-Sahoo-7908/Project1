@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shooping Online</title>
+        <link rel="stylesheet" href="Fonts/css/all.css">
+        <style>
+            #header{
+                
+                height: 60px;
+                width: 100%;
+                background-color: darkmagenta;
+                color: darkturquoise;               
+                font-size: 2em;
+                text-align: center;      
+            }
+            #footer{      
+                height: 40px;
+                width: 100%;
+                background-color: darkmagenta;
+                color: darkturquoise;
+                font-family: 'Lucida Sans';
+                font-size: 20px;
+                text-align: center;
+                font-style: italic;                
+            }
+            #section{                
+                margin: 10px;
+                width: 100%;
+                height: 450px;
+            }
+            ul{
+                list-style-type: none;
+               
+            }
+            li{
+                
+                border: 2px solid rgb(221, 53, 53);
+                background-color: chocolate;
+                margin-top: 30px;
+                width: 150px;
+                height: 40px;
+                text-align: center;
+                color: white;
+                line-height: 42px;
+                font-size: 20px;
+                border-radius: 15px;
+                box-shadow: 0px 5px 10px brown;
+            }
+            a{
+                text-decoration: none;
+            }
+            iframe{
+                width: 100%;
+                height: 435px;
+            } 
+            #left{
+                margin: 20px;
+                height: 440px;
+                width: 250px;
+                float: left;
+                border-radius: 15px;
+                box-shadow: 5px 10px 15px brown;
+               
+            }          
+            #right{
+                margin: 20px;
+                width: 75%;
+                height: 440px;
+                float: left;
+               
+            }
+           
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <h2>Shooping Online</h2>
+        </div>
+        <div id="section">
+            <div id="left">
+               <ul>
+                   <a href="home.html" target="framebody"><li><span class="fa fa-home">&nbsp;Home</span></li></a>
+                   <a href="electronics.html" target="framebody"><li><span class="fa fa-tv">&nbsp;Electronics</span></li></a>
+                   <a href="footwear.html" target="framebody"><li><span class="fa fa-shoe-prints">&nbsp;Footwear</span></li></a>
+                   <a href="fashion.html" target="framebody"><li><span class="fa fa-tshirt">&nbsp;Fashion</span></li></a>
+                   <a href="contact.html" target="framebody"><li><span class="fa fa-address-card">&nbsp;Contact US</span></li></a>
+                  
+               </ul>
+            </div>
+            <div id="right">
+                <iframe name="framebody" src="home.html"  frameborder="0"></iframe>
+            </div>
+        </div>
+        <div id="footer">
+            <h4>&copy;Copyright 2020</h4>
+        </div>
+    </body>
+</html>
